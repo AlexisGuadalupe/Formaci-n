@@ -3,7 +3,7 @@ body{
     font-family: sans-serif;
 }
 
-*, *:before, *:after {
+body {
     margin: 0;
     padding: 0;
 }
@@ -72,6 +72,13 @@ main{
     min-width: 50%;
 }
 
+@media (width <= 600px) {
+    main{
+        min-width: 100%;
+        margin-left: 10px;
+    }
+}
+
 .secondary-navbar{
     min-width: 10rem;
     text-align: center;
@@ -92,6 +99,10 @@ main{
     font-size: 40px;
 }
 
+.secondary-navbar_nav ul{
+    padding: 0;
+}
+
 /* Separando los textos para que no se vea feo */
 
 .Texto{
@@ -106,4 +117,16 @@ main{
     margin-top: 25px;
     margin-left: 15px;
     font-size: 18px;
+}
+
+/* Imagenes */
+
+.img-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagenes{
+    width: 50%;
 }
