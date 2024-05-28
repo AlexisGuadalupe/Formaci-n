@@ -22,9 +22,8 @@ ul{
 
 .header__link{
     display: inline-flex;
-    margin-top: 7px;
     margin-left: 10px;
-    background-color: #48e;
+    background-color: rgb(123, 123, 123);
     text-decoration: none;
     padding: 15px 15px;
     text-align: center;
@@ -129,4 +128,8 @@ main{
 
 .imagenes{
     width: 50%;
+}
+
+.secondary-navbar_nav ul li{
+    margin-top: 10px;
 }
